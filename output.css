@@ -428,7 +428,7 @@ input:checked + label {
   
   height: auto;
   width: 100%;
-  background: #ffffff url("mbtl1.jpg") no-repeat fixed;
+  background: #ffffff url("mbtl1.webp") no-repeat fixed;
   background-size: cover;
   background-position: 50% 50%;
   justify-content: center;
