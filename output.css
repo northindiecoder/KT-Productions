@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: 'MyCustomFont', 'sans-serif';
-  background-color: fbf7f5;
+  background-color: #fbf7f5;
 }
 
 .float{
@@ -84,7 +84,7 @@ nav {
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: fbf7f5;
+  background-color: #fbf7f5;
   backdrop-filter: blur(5px);
   z-index: 1000; /
 }
