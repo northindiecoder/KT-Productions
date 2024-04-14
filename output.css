@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: 'MyCustomFont', 'sans-serif';
-  background-color: #f9f9f9;
+  background-color: fbf7f5;
 }
 
 .float{
@@ -84,7 +84,7 @@ nav {
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #f9f9f9;
+  background-color: fbf7f5;
   backdrop-filter: blur(5px);
   z-index: 1000; /
 }
@@ -510,7 +510,7 @@ input:checked + label {
   
     height: auto;
     width: 100%;
-    background: #ffffff url("mbtl7.jpg") no-repeat fixed;
+    background: #ffffff url("mbtl1.webp") no-repeat fixed;
     background-size: cover;
     background-position: 50% 50%;
     justify-content: center;
