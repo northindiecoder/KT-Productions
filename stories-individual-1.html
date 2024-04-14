@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedmebells</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="stories-individual.css">
+</head>
+<body>
+    <section class="stories-first-section">
+        
+    
+        <nav>
+        <div class="logo">
+            <a href="#">wedmeclick</a>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="Stories.html">Stories</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</section>
+
+<section class="about-love-story">
+    <div class="heading">
+        <h1 class="couple-name">
+            Shreya & Mayan | Bali, Indonesia
+        </h1>
+    </div>
+    <div class="paragraph">
+        <p class="individual-story">
+            Loren Ipsum
+        </p>
+    
+    </div>
+
+    <div id="videoContainer"></div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script>
+      // Replace with your Vimeo video ID
+      const videoId = '848079955';
+
+      // Create the video container div
+      const videoContainer = document.getElementById('videoContainer');
+
+      // Create an iframe element for the Vimeo video player
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://player.vimeo.com/video/${videoId}`;
+      iframe.width = '640';
+      iframe.height = '360';
+      iframe.frameBorder = '0';
+      iframe.allow = 'autoplay; fullscreen; picture-in-picture';
+      iframe.allowFullscreen = true;
+
+      // Append the iframe to the video container div
+      videoContainer.appendChild(iframe);
+
+      // Create a new Vimeo player instance
+      const player = new Vimeo.Player(iframe);
+
+      // You can add event listeners or control the player using the player object
+      // For example, to play the video automatically:
+      player.play();
+    </script>
+
+<div class="container">
+    <div class="image-box full-width"><img src="couple 1.jpeg" alt=""></div>
+    <div class="image-box full-width">Image Box 2</div>
+    <div class="image-box full-width">Image Box 3</div>
+    <div class="image-box full-width">Image Box 4</div>
+    <div class="image-box half-width">Image Box 5</div>
+    <div class="image-box half-width">Image Box 6</div>
+    <div class="image-box full-width">Image Box 7</div>
+    <div class="image-box full-width">Image Box 8</div>
+    <div class="image-box full-width">Image Box 9</div>
+    <div class="image-box full-width">Image Box 10</div>
+    <div class="image-box half-width">Image Box 11</div>
+    <div class="image-box half-width">Image Box 12</div>
+    <div class="image-box full-width">Image Box 13</div>
+    <div class="image-box full-width">Image Box 14</div>
+    <div class="image-box full-width">Image Box 15</div>
+    <div class="image-box full-width">Image Box 16</div>
+    <div class="image-box half-width">Image Box 17</div>
+    <div class="image-box half-width">Image Box 18</div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
